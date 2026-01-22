@@ -1,0 +1,42 @@
+[
+  {
+    "id": "m1",
+    "title": "Coffee Theory",
+    "lessons": [
+      { "id": "l1-1", "title": "What is Coffee?", "status": "active", "duration": "10m" },
+      { "id": "l1-2", "title": "Fundamental Brewing Science", "status": "locked", "duration": "15m" }
+    ]
+  },
+  {
+    "id": "m2",
+    "title": "Brewing Coffee by Hand",
+    "lessons": [
+      { "id": "l2-1", "title": "Manual Techniques", "status": "locked", "duration": "12m" },
+      { "id": "l2-2", "title": "Experimentation", "status": "locked", "duration": "10m" }
+    ]
+  },
+  {
+    "id": "m3",
+    "title": "Your Home Bar",
+    "lessons": [
+      { "id": "l3-1", "title": "Equipment Setup", "status": "locked", "duration": "20m" },
+      { "id": "l3-2", "title": "Espresso Machine Maintenance", "status": "locked", "duration": "15m" }
+    ]
+  },
+  {
+    "id": "m4",
+    "title": "Pulling Cafe Quality Espresso",
+    "lessons": [
+      { "id": "l4-1", "title": "Dosing & Distribution", "status": "locked", "duration": "10m" },
+      { "id": "l4-2", "title": "The Perfect Extraction", "status": "locked", "duration": "12m" }
+    ]
+  },
+  {
+    "id": "m5",
+    "title": "Milk and Latte Art",
+    "lessons": [
+      { "id": "l5-1", "title": "Steaming Microfoam", "status": "locked", "duration": "18m" },
+      { "id": "l5-2", "title": "Pouring Mechanics", "status": "locked", "duration": "25m" }
+    ]
+  }
+]
