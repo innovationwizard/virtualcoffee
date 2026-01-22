@@ -1,0 +1,140 @@
+[
+    {
+        "url": "home",
+        "title": "Virtual Coffee | Coffee education for the home",
+        "content_snippet": "Home barista skill development in just 5 daysSIGN UPWe\u2019ve trained world class baristas and coffee shop owners.Now we want to train you.For over 25 years Bellissimo Coffee Advisors has consulted and trained coffee business owners and their teams. For the first time ever, we\u2019re bringing our knowledge to your home.We believe everyone should be able to enjoy great coffee.LEARN MORE ABOUT USOur CourseHome Barista CourseDiscover your own perfect coffee routine and become the master of your morning cup...",
+        "images": [
+            "/images/Espresso-101-Cover.jpg",
+            "/images/kayla-phaneuf-gQbHr55OTJI-unsplash-scaled-1-300x300.jpg",
+            "/images/Screenshot-2024-12-06-at-8.02.07\u202fPM-1-150x150.png"
+        ],
+        "type": "marketing_page"
+    },
+    {
+        "url": "about/",
+        "title": "About | Virtual Coffee",
+        "content_snippet": "ABOUT USCOFFEE PROFESSIONALS25+ years of coffee educationBarista Exchange and  Bellissimo Coffee Advisors have helped entrepreneurs open specialty coffee shops for over 30 years.Meet Your InstructorsMykelBarista and Coffee RoasterHailing from Phoenix, Arizona, Mykel fell in love with coffee as a journalism undergrad at Northern Arizona University. With 11 years of coffee experience, Mykel works diligently to experience every step it takes to get specialty coffee from seed to cup. From customer s...",
+        "images": [
+            "/images/Dillon-1.png"
+        ],
+        "type": "marketing_page"
+    },
+    {
+        "url": "blog/",
+        "title": "Blog | Virtual Coffee",
+        "content_snippet": "BlogJanuary 4, 2025The Benefits of Drinking Coffee: More Than Just a Morning Boost1. A Natural Energy Booster 2. Packed with Nutrients and Antioxidants 3. Enhances Brain Function 4. Supports Physical Performance 5.\u2026Read MoreDecember 31, 2024Coffee Culture Around the World: A Global Journey From Seed to Cup1. Ethiopia: The Birthplace of Coffee 2. Italy: The Home of Espresso 3. Turkey: Coffee as a Heritage 4. Japan:\u2026Read MoreDecember 28, 2024How to Be a Home Barista: Mastering the Art of Coffee at...",
+        "images": [
+            "/images/pexels-photo-373639-373639-768x512.jpg"
+        ],
+        "type": "marketing_page"
+    },
+    {
+        "url": "testimonials/",
+        "title": "Testimonials | Virtual Coffee",
+        "content_snippet": "TestimonialsJan and Ron W\"Professional Quality, at Home!\"\"This course taught us everything we needed to know, from dialing in our espresso to creating silky microfoam for latte art. It was fun to do the course together and now we are enjoying caf\u00e9-quality coffee drinks every day!\"Chuck A\"Best Investment in My Coffee Journey!\"\"This course demystified latte art for me. I feel so confident with my coffee setup at home now, and my friends are always asking for my \u2018signature\u2019 macchiatos!\"Aaron L\"Coff...",
+        "images": [
+            "/images/Screenshot-2024-12-06-at-8.02.07\u202fPM-1-150x150.png"
+        ],
+        "type": "marketing_page"
+    },
+    {
+        "model": "core.Module",
+        "fields": {
+            "title": "Coffee Theory",
+            "order": 1,
+            "is_locked": true,
+            "lessons": [
+                {
+                    "title": "Coffee Theory - Lesson 1",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "5:00"
+                },
+                {
+                    "title": "Coffee Theory - Lesson 2",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "12:30"
+                }
+            ]
+        }
+    },
+    {
+        "model": "core.Module",
+        "fields": {
+            "title": "Brewing Basics",
+            "order": 2,
+            "is_locked": true,
+            "lessons": [
+                {
+                    "title": "Brewing Basics - Lesson 1",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "5:00"
+                },
+                {
+                    "title": "Brewing Basics - Lesson 2",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "12:30"
+                }
+            ]
+        }
+    },
+    {
+        "model": "core.Module",
+        "fields": {
+            "title": "Espresso Mastery",
+            "order": 3,
+            "is_locked": true,
+            "lessons": [
+                {
+                    "title": "Espresso Mastery - Lesson 1",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "5:00"
+                },
+                {
+                    "title": "Espresso Mastery - Lesson 2",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "12:30"
+                }
+            ]
+        }
+    },
+    {
+        "model": "core.Module",
+        "fields": {
+            "title": "Milk Texturing",
+            "order": 4,
+            "is_locked": true,
+            "lessons": [
+                {
+                    "title": "Milk Texturing - Lesson 1",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "5:00"
+                },
+                {
+                    "title": "Milk Texturing - Lesson 2",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "12:30"
+                }
+            ]
+        }
+    },
+    {
+        "model": "core.Module",
+        "fields": {
+            "title": "Latte Art",
+            "order": 5,
+            "is_locked": true,
+            "lessons": [
+                {
+                    "title": "Latte Art - Lesson 1",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "5:00"
+                },
+                {
+                    "title": "Latte Art - Lesson 2",
+                    "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "duration": "12:30"
+                }
+            ]
+        }
+    }
+]
