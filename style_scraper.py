@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 
 # CONFIGURATION
 TARGET_URL = "https://virtualcoffee.com/"
-OUTPUT_FILE = "../frontend/tailwind.config.ts" # Targets your Next.js app directly
+OUTPUT_FILE = "./tailwind.config.ts" # Targets your Next.js app directly
 
 def extract_styles():
     print(f"🕵️  Infiltrating {TARGET_URL} to steal design tokens...")
