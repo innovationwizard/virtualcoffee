@@ -159,7 +159,7 @@ export default function HomePage() {
         <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-text-light">
           5-Day Course
         </p>
-        <h3 className="text-3xl font-semibold text-brand-text md:text-4xl">
+        <h3 className="text-2xl font-semibold text-brand-red">
           What you&apos;ll learn
         </h3>
 
