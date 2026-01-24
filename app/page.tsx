@@ -105,6 +105,13 @@ export default function HomePage() {
         >
           Learn more about us <span aria-hidden>→</span>
         </a>
+        <div className="mt-12 w-full overflow-hidden rounded-3xl border border-gray-200 shadow-sm">
+          <img
+            src="/images/video-placeholder.png"
+            alt="Virtual Coffee video preview"
+            className="h-full w-full object-cover"
+          />
+        </div>
       </section>
 
       <section
