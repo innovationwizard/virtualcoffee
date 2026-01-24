@@ -230,7 +230,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="space-y-10">
+          <div className="space-y-10 md:mt-[120px]">
             <div className="rounded-2xl bg-brand-red px-6 py-6 text-left text-white shadow-lg">
               <h4 className="text-lg font-semibold">Brewing Coffee by Hand</h4>
               <p className="mt-2 text-sm text-white/90">
