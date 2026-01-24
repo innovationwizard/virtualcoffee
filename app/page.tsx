@@ -261,7 +261,7 @@ export default function HomePage() {
         id="testimonials"
         className="mx-auto w-full max-w-6xl space-y-8 px-6 pb-16"
       >
-        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-red">
+        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-red text-center">
           Testimonials
         </p>
         <div className="grid gap-6 md:grid-cols-2">
