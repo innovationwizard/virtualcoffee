@@ -362,10 +362,12 @@ export default function HomePage() {
               <h3 className="text-lg font-semibold">
                 Don&apos;t miss our future updates! Get Subscribed Today!
               </h3>
-              <p className="mt-2 text-sm text-white/70">
-                Join the community and be the first to hear about new lessons,
-                events, and barista tips.
-              </p>
+              {/*
+                <p className="mt-2 text-sm text-white/70">
+                  Join the community and be the first to hear about new lessons,
+                  events, and barista tips.
+                </p>
+              */}
             </div>
             <form className="flex flex-wrap items-center gap-3">
               <input
