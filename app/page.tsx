@@ -311,85 +311,83 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section
-        id="community"
-        className="mx-auto w-full max-w-6xl space-y-6 px-6 pb-16"
-      >
-        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-red">
-          Subscribe Now
-        </p>
-        <div className="grid gap-6 rounded-3xl border border-gray-100 bg-brand-beige p-8 md:grid-cols-[1.1fr_0.9fr]">
+      <section id="community" className="bg-brand-navy py-14 text-white">
+        <div className="mx-auto grid w-full max-w-6xl gap-10 px-6 md:grid-cols-[1fr_1fr_1.2fr]">
           <div>
-            <h3 className="text-2xl font-bold text-brand-text">
-              Don&apos;t miss our future updates! Get Subscribed Today!
-            </h3>
-            <p className="mt-2 text-sm text-brand-text-light">
-              Join the community and be the first to hear about new lessons,
-              events, and barista tips.
-            </p>
-          </div>
-          <form className="flex flex-col gap-3 sm:flex-row">
-            <input
-              type="email"
-              placeholder="Your mail here"
-              className="flex-1 rounded-full border border-gray-200 px-4 py-3 text-sm focus:border-brand-red focus:outline-none focus:ring-2 focus:ring-brand-red/20"
-            />
-            <button
-              type="submit"
-              className="rounded-full bg-brand-red px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-md transition hover:bg-red-600"
-            >
-              Subscribe Now
-            </button>
-          </form>
-        </div>
-      </section>
-
-      <footer
-        id="contact"
-        className="border-t border-gray-100 bg-white py-10"
-      >
-        <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-6 md:flex-row md:items-center md:justify-between">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-text">
+            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-white/70">
               Useful Links
             </p>
-            <div className="mt-3 flex flex-wrap gap-4 text-xs uppercase tracking-[0.2em] text-brand-text-light">
-              <a href="#home" className="hover:text-brand-red">
+            <div className="mt-4 space-y-3 text-xs uppercase tracking-[0.2em] text-white/70">
+              <a href="#home" className="block hover:text-white">
                 Home
               </a>
-              <a href="#about" className="hover:text-brand-red">
+              <a href="#about" className="block hover:text-white">
                 About
               </a>
-              <a href="#community" className="hover:text-brand-red">
+              <a href="#community" className="block hover:text-white">
                 Community
               </a>
-              <a href="#testimonials" className="hover:text-brand-red">
+              <a href="#testimonials" className="block hover:text-white">
                 Testimonials
               </a>
-              <a href="#blog" className="hover:text-brand-red">
+              <a href="#blog" className="block hover:text-white">
                 Blog
               </a>
-              <a href="/login" className="hover:text-brand-red">
-                My Account
-              </a>
-              <a href="/login" className="hover:text-brand-red">
+            </div>
+          </div>
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-white/70">
+              My Account
+            </p>
+            <div className="mt-4 space-y-3 text-xs uppercase tracking-[0.2em] text-white/70">
+              <a href="/login" className="block hover:text-white">
                 Login
               </a>
-              <a href="/login" className="hover:text-brand-red">
+              <a href="/login" className="block hover:text-white">
                 Sign Up
               </a>
-              <a href="#contact" className="hover:text-brand-red">
+              <a href="#contact" className="block hover:text-white">
                 Contact
               </a>
-              <a href="#privacy" className="hover:text-brand-red">
+              <a href="#privacy" className="block hover:text-white">
                 Privacy Policy
               </a>
             </div>
           </div>
-          <p className="text-xs text-brand-text-light">
-            Copyright © 2025 Virtual Coffee
-          </p>
+          <div className="space-y-4">
+            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-white/70">
+              Subscribe Now
+            </p>
+            <div>
+              <h3 className="text-lg font-semibold">
+                Don&apos;t miss our future updates! Get Subscribed Today!
+              </h3>
+              <p className="mt-2 text-sm text-white/70">
+                Join the community and be the first to hear about new lessons,
+                events, and barista tips.
+              </p>
+            </div>
+            <form className="flex flex-wrap items-center gap-3">
+              <input
+                type="email"
+                placeholder="Your mail here"
+                className="min-w-[220px] flex-1 rounded-full border border-white/10 bg-white px-4 py-3 text-sm text-brand-text placeholder:text-brand-text-light focus:border-brand-red focus:outline-none focus:ring-2 focus:ring-brand-red/20"
+              />
+              <button
+                type="submit"
+                className="rounded-full bg-brand-red px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-md transition hover:bg-red-600"
+              >
+                Subscribe Now
+              </button>
+            </form>
+          </div>
         </div>
+      </section>
+
+      <footer id="contact" className="bg-brand-red py-4">
+        <p className="text-center text-xs text-white">
+          Copyright © 2025 Virtual Coffee
+        </p>
       </footer>
     </main>
   );
