@@ -1,3 +1,5 @@
+import { Coffee, CheckCircle, User, Settings } from "lucide-react";
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-brand-text">
@@ -226,16 +228,19 @@ export default function HomePage() {
         </h4>
         <div className="grid gap-6 md:grid-cols-4">
           {[
-            "About the Course",
-            "Comprehensive",
-            "Self-paced",
-            "Created by Unbiased Experts",
-          ].map((label) => (
+            { label: "About the Course", icon: Coffee },
+            { label: "Comprehensive", icon: Settings },
+            { label: "Self-paced", icon: CheckCircle },
+            { label: "Created by Unbiased Experts", icon: User },
+          ].map(({ label, icon: Icon }) => (
             <div
               key={label}
-              className="rounded-2xl border border-brand-red px-4 py-6 text-sm font-semibold uppercase tracking-[0.2em] text-brand-red"
+              className="flex flex-col items-center gap-4 rounded-2xl border border-brand-red px-4 py-6 text-sm font-semibold uppercase tracking-[0.2em] text-brand-red"
             >
-              {label}
+              <span className="flex h-12 w-12 items-center justify-center rounded-full border border-brand-red">
+                <Icon className="h-6 w-6" />
+              </span>
+              <span className="text-center">{label}</span>
             </div>
           ))}
         </div>
