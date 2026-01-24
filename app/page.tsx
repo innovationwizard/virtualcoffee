@@ -151,6 +151,108 @@ export default function HomePage() {
       </section>
 
       <section
+        id="five-day-course"
+        className="mx-auto w-full max-w-6xl space-y-12 px-6 py-20 text-center"
+      >
+        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-text-light">
+          5-Day Course
+        </p>
+        <h3 className="text-3xl font-semibold text-brand-text md:text-4xl">
+          What you&apos;ll learn
+        </h3>
+
+        <div className="relative mx-auto grid max-w-5xl gap-10 md:grid-cols-[1fr_40px_1fr]">
+          <div className="space-y-10">
+            <div className="rounded-2xl bg-brand-red px-6 py-6 text-left text-white shadow-lg">
+              <h4 className="text-lg font-semibold">Coffee Theory</h4>
+              <p className="mt-2 text-sm text-white/90">
+                Our course isn&apos;t just about technique. After day 1, you&apos;ll
+                understand what few others do: what coffee really is and how
+                brewing it works at the most fundamental level.
+              </p>
+            </div>
+            <div className="rounded-2xl bg-brand-red px-6 py-6 text-left text-white shadow-lg">
+              <h4 className="text-lg font-semibold">Your Home Bar</h4>
+              <p className="mt-2 text-sm text-white/90">
+                As we prepare to pull espresso, we help you figure out how to set
+                up your home bar and understand espresso on a new level.
+              </p>
+            </div>
+            <div className="rounded-2xl bg-brand-red px-6 py-6 text-left text-white shadow-lg">
+              <h4 className="text-lg font-semibold">Milk and Latte Art</h4>
+              <p className="mt-2 text-sm text-white/90">
+                The last day of the course is where you prove your mastery. We
+                move step-by-step to teach you how to steam perfect milk and draw
+                latte art just like a professional barista.
+              </p>
+            </div>
+          </div>
+
+          <div className="relative hidden items-center justify-center md:flex">
+            <div className="absolute inset-y-0 w-0.5 bg-brand-red/60" />
+            <div className="flex h-full flex-col items-center justify-between py-2">
+              {Array.from({ length: 5 }).map((_, index) => (
+                <span
+                  key={`dot-${index}`}
+                  className="h-4 w-4 rounded-full bg-brand-red"
+                />
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-10">
+            <div className="rounded-2xl bg-brand-red px-6 py-6 text-left text-white shadow-lg">
+              <h4 className="text-lg font-semibold">Brewing Coffee by Hand</h4>
+              <p className="mt-2 text-sm text-white/90">
+                We start brewing actual coffee with manual techniques to give you
+                more ways to experiment on your own.
+              </p>
+            </div>
+            <div className="rounded-2xl bg-brand-red px-6 py-6 text-left text-white shadow-lg">
+              <h4 className="text-lg font-semibold">
+                Pulling Cafe Quality Espresso
+              </h4>
+              <p className="mt-2 text-sm text-white/90">
+                For the first time ever, we&apos;ve distilled our industry training
+                techniques for the home brewer. You&apos;ll get our professional
+                guidance to brew cafe quality at home.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h4 className="pt-6 text-2xl font-semibold text-brand-red">
+          Why Choose Us
+        </h4>
+        <div className="grid gap-6 md:grid-cols-4">
+          {[
+            "About the Course",
+            "Comprehensive",
+            "Self-paced",
+            "Created by Unbiased Experts",
+          ].map((label) => (
+            <div
+              key={label}
+              className="rounded-2xl border border-brand-red px-4 py-6 text-sm font-semibold uppercase tracking-[0.2em] text-brand-red"
+            >
+              {label}
+            </div>
+          ))}
+        </div>
+
+        <p className="mx-auto max-w-4xl text-xl font-semibold text-brand-red">
+          After just 5 days, a couple hours of free time per day, you&apos;ll be
+          the one friends come to for coffee advice.
+        </p>
+        <a
+          href="/login"
+          className="inline-flex rounded-full bg-brand-red px-10 py-3 text-xs font-semibold uppercase tracking-[0.35em] text-white shadow-md transition hover:bg-red-600"
+        >
+          Enroll Now
+        </a>
+      </section>
+
+      <section
         id="testimonials"
         className="mx-auto w-full max-w-6xl space-y-8 px-6 pb-16"
       >
