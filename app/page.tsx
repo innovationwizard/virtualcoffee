@@ -1,5 +1,33 @@
 import { Coffee, CheckCircle, User, Settings } from "lucide-react";
 
+const testimonials = [
+  {
+    name: "Jan and Ron W",
+    quote:
+      "Professional Quality, at Home! This course taught us everything we needed to know, from dialing in our espresso to creating silky microfoam for latte art. It was fun to do the course together and now we are enjoying café-quality coffee drinks every day!",
+  },
+  {
+    name: "Chuck A",
+    quote:
+      "Best Investment in My Coffee Journey! This course demystified latte art for me. I feel so confident with my coffee setup at home now, and my friends are always asking for my ‘signature’ macchiatos!",
+  },
+  {
+    name: "Aaron L",
+    quote:
+      "Coffee Game-Changer! I never thought I’d be the ‘office barista,’ but thanks to this course, I’m impressing my coworkers with perfect espressos and frothy lattes. My mornings are more caffeinated and fun than ever!",
+  },
+  {
+    name: "Abbey S",
+    quote:
+      "Transformative Experience! Before this course, I could barely use my espresso machine. Now, I’m making cappuccinos and lattes at home that rival my favorite café. VirtualCoffee.com gave me the skills I needed to master my morning routine!",
+  },
+  {
+    name: "Cheryl A",
+    quote:
+      "From Amateur to Coffee Pro! I used to dread my old, mediocre morning coffee. Now, I can make incredible coffee right in my kitchen, and it’s all thanks to VirtualCoffee.com. The course was easy to follow and super engaging!",
+  },
+];
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-brand-text">
@@ -264,46 +292,22 @@ export default function HomePage() {
         <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-red text-center">
           Testimonials
         </p>
-        <div className="grid gap-6 md:grid-cols-2">
-          {[
-            {
-              name: "Jan and Ron W",
-              quote:
-                "Professional Quality, at Home! This course taught us everything we needed to know, from dialing in our espresso to creating silky microfoam for latte art. It was fun to do the course together and now we are enjoying café-quality coffee drinks every day!",
-            },
-            {
-              name: "Chuck A",
-              quote:
-                "Best Investment in My Coffee Journey! This course demystified latte art for me. I feel so confident with my coffee setup at home now, and my friends are always asking for my ‘signature’ macchiatos!",
-            },
-            {
-              name: "Aaron L",
-              quote:
-                "Coffee Game-Changer! I never thought I’d be the ‘office barista,’ but thanks to this course, I’m impressing my coworkers with perfect espressos and frothy lattes. My mornings are more caffeinated and fun than ever!",
-            },
-            {
-              name: "Abbey S",
-              quote:
-                "Transformative Experience! Before this course, I could barely use my espresso machine. Now, I’m making cappuccinos and lattes at home that rival my favorite café. VirtualCoffee.com gave me the skills I needed to master my morning routine!",
-            },
-            {
-              name: "Cheryl A",
-              quote:
-                "From Amateur to Coffee Pro! I used to dread my old, mediocre morning coffee. Now, I can make incredible coffee right in my kitchen, and it’s all thanks to VirtualCoffee.com. The course was easy to follow and super engaging!",
-            },
-          ].map((testimonial) => (
-            <div
-              key={testimonial.name}
-              className="rounded-3xl border border-gray-100 bg-white p-6 shadow-sm"
-            >
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-red">
-                {testimonial.name}
-              </p>
-              <p className="mt-3 text-sm text-brand-text-light">
-                “{testimonial.quote}”
-              </p>
-            </div>
-          ))}
+        <div className="relative overflow-hidden">
+          <div className="carousel-track py-2">
+            {[...testimonials, ...testimonials].map((testimonial, index) => (
+              <div
+                key={`${testimonial.name}-${index}`}
+                className="w-[280px] flex-none rounded-3xl border border-gray-100 bg-white p-6 shadow-sm sm:w-[320px] md:w-[360px]"
+              >
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-red">
+                  {testimonial.name}
+                </p>
+                <p className="mt-3 text-sm text-brand-text-light">
+                  “{testimonial.quote}”
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
