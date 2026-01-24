@@ -388,7 +388,7 @@ export default function HomePage() {
 
       <footer id="contact" className="bg-brand-red py-4">
         <p className="text-center text-xs text-white">
-          Copyright © 2025 Virtual Coffee
+          Copyright © 2026 Virtual Coffee
         </p>
       </footer>
     </main>
