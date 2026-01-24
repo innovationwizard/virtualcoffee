@@ -83,23 +83,27 @@ export default function HomePage() {
 
       <section
         id="about"
-        className="mx-auto w-full max-w-6xl space-y-6 px-6 py-16"
+        className="mx-auto w-full max-w-6xl px-6 py-20 text-center"
       >
-        <h2 className="text-3xl font-bold text-brand-text md:text-4xl">
-          We&apos;ve trained world class baristas and coffee shop owners. Now we
-          want to train you.
+        <h2 className="mx-auto max-w-4xl text-3xl font-semibold leading-tight text-brand-text md:text-5xl">
+          We&apos;ve trained world class baristas and coffee shop owners.
         </h2>
-        <p className="max-w-4xl text-base text-brand-text-light">
+        <h3 className="mt-6 text-3xl font-semibold text-brand-text md:text-4xl">
+          Now we want to train you.
+        </h3>
+        <p className="mx-auto mt-6 max-w-4xl text-base text-brand-text-light md:text-lg">
           For over 25 years Bellissimo Coffee Advisors has consulted and trained
           coffee business owners and their teams. For the first time ever,
-          we&apos;re bringing our knowledge to your home. We believe everyone
-          should be able to enjoy great coffee.
+          we&apos;re bringing our knowledge to your home.
+        </p>
+        <p className="mx-auto mt-6 max-w-3xl text-base italic text-brand-text-light md:text-lg">
+          We believe everyone should be able to enjoy great coffee.
         </p>
         <a
           href="#course"
-          className="inline-flex w-fit rounded-full border-2 border-brand-red px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-brand-red transition hover:bg-brand-red hover:text-white"
+          className="mt-10 inline-flex items-center gap-3 rounded-full border-2 border-brand-red px-10 py-4 text-xs font-semibold uppercase tracking-[0.35em] text-brand-red transition hover:bg-brand-red hover:text-white"
         >
-          Learn More About Us
+          Learn more about us <span aria-hidden>→</span>
         </a>
       </section>
 
