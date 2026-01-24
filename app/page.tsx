@@ -116,114 +116,36 @@ export default function HomePage() {
 
       <section
         id="course"
-        className="mx-auto w-full max-w-6xl space-y-10 px-6 pb-16"
+        className="relative w-full bg-brand-navy/60"
+        style={{
+          backgroundImage: "url('/images/our-course-bg.png')",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
       >
-        <div className="space-y-3">
+        <div className="absolute inset-0 bg-brand-navy/70" aria-hidden />
+        <div className="relative mx-auto flex w-full max-w-6xl flex-col items-center gap-10 px-6 py-20 text-center text-white md:py-24">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-red">
             Our Course
           </p>
-          <div className="flex flex-wrap items-center justify-between gap-4">
-            <h3 className="text-3xl font-bold text-brand-text">
-              Home Barista Course
-            </h3>
-            <span className="text-2xl font-bold text-brand-text">$79</span>
-          </div>
-          <p className="max-w-3xl text-base text-brand-text-light">
-            Discover your own perfect coffee routine and become the master of
-            your morning cup.
-          </p>
-          <a
-            href="/login"
-            className="inline-flex rounded-full bg-brand-red px-7 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-md transition hover:bg-red-600"
-          >
-            Explore the Course
-          </a>
-        </div>
-
-        <div className="grid gap-8 md:grid-cols-[1.2fr_0.8fr]">
-          <div className="space-y-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-red">
-              5-Day Course
+          <div className="w-full max-w-xl rounded-[36px] border-2 border-brand-red bg-white/10 px-8 py-10 text-white shadow-xl backdrop-blur-sm">
+            <img
+              src="/images/kayla-phaneuf-gQbHr55OTJI-unsplash-scaled-1-300x300.jpg"
+              alt="Home Barista Course preview"
+              className="mx-auto h-24 w-24 rounded-lg object-cover shadow-md"
+            />
+            <h3 className="mt-6 text-2xl font-semibold">Home Barista Course</h3>
+            <p className="mt-3 text-sm text-white/80">
+              Discover your own perfect coffee routine and become the master of
+              your morning cup.
             </p>
-            <h4 className="text-2xl font-bold text-brand-text">
-              What you&apos;ll learn
-            </h4>
-            <div className="space-y-5 text-base text-brand-text-light">
-              <div>
-                <h5 className="text-lg font-semibold text-brand-text">
-                  Coffee Theory
-                </h5>
-                <p>
-                  Our course isn&apos;t just about technique. After day 1,
-                  you&apos;ll understand what few others do: what coffee really
-                  is and how brewing it works at the most fundamental level.
-                </p>
-              </div>
-              <div>
-                <h5 className="text-lg font-semibold text-brand-text">
-                  Brewing Coffee by Hand
-                </h5>
-                <p>
-                  We start brewing actual coffee with manual techniques to give
-                  you more ways to experiment on your own.
-                </p>
-              </div>
-              <div>
-                <h5 className="text-lg font-semibold text-brand-text">
-                  Your Home Bar
-                </h5>
-                <p>
-                  As we prepare to pull espresso, we help you figure out how to
-                  set up your home bar and understand espresso on a new level.
-                </p>
-              </div>
-              <div>
-                <h5 className="text-lg font-semibold text-brand-text">
-                  Pulling Cafe Quality Espresso
-                </h5>
-                <p>
-                  For the first time ever, we&apos;ve distilled our industry
-                  training techniques for the home brewer. You&apos;ll get our
-                  professional guidance to brew cafe quality at home.
-                </p>
-              </div>
-              <div>
-                <h5 className="text-lg font-semibold text-brand-text">
-                  Milk and Latte Art
-                </h5>
-                <p>
-                  The last day of the course is where you prove your mastery.
-                  We move step-by-step to teach you how to steam perfect milk and
-                  draw latte art just like a professional barista.
-                </p>
-              </div>
-            </div>
-            <p className="text-base font-semibold text-brand-text">
-              After just 5 days, a couple hours of free time per day, you&apos;ll
-              be the one friends come to for coffee advice.
-            </p>
+            <p className="mt-4 text-lg font-semibold text-brand-red">$79</p>
             <a
               href="/login"
-              className="inline-flex rounded-full bg-brand-red px-7 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-md transition hover:bg-red-600"
+              className="mt-6 inline-flex rounded-full bg-brand-red px-8 py-3 text-xs font-semibold uppercase tracking-[0.35em] text-white shadow-md transition hover:bg-red-600"
             >
-              Enroll Now
+              Explore the Course
             </a>
-          </div>
-          <div className="space-y-6 rounded-3xl border border-gray-100 bg-brand-beige p-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-red">
-              About the Course
-            </p>
-            <div className="space-y-3 text-sm font-semibold uppercase tracking-[0.2em] text-brand-text">
-              <div className="rounded-full border border-brand-red px-5 py-2">
-                Comprehensive
-              </div>
-              <div className="rounded-full border border-brand-red px-5 py-2">
-                Self-paced
-              </div>
-              <div className="rounded-full border border-brand-red px-5 py-2">
-                Created by Unbiased Experts
-              </div>
-            </div>
           </div>
         </div>
       </section>
