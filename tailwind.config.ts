@@ -10,16 +10,13 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          base: '#ffffff',    // White Background
-          primary: '#ff6b6b', // The "Coral" from the Logo/Buttons (Approximate from PDF)
-          text: '#333333',    // Body Text
-          dark: '#000000',    // Headings
-          accent: '#ff6b6b',  // Matching the primary for consistency
+          navy: '#1a2332',    // Dark navy background (header, hero, footer)
+          red: '#e74c3c',     // Red/coral accent (buttons, "coffee" text)
+          beige: '#f4f3ef',   // Beige/tan section backgrounds
+          white: '#ffffff',   // White backgrounds
+          text: '#333333',    // Body text
+          'text-light': '#666666', // Lighter body text
         },
-        coffee: {
-          50: '#fdf8f6',
-          900: '#2b211b',
-        }
       },
       fontFamily: {
         sans: ['var(--font-lato)', 'sans-serif'],
