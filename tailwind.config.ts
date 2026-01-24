@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          navy: '#1a2332',    // Dark navy background (header, hero, footer)
+          navy: '#314459',    // Dark blue background (header, hero, footer)
           red: '#e74c3c',     // Red/coral accent (buttons, "coffee" text)
           beige: '#f4f3ef',   // Beige/tan section backgrounds
           white: '#ffffff',   // White backgrounds
