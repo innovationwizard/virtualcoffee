@@ -317,7 +317,7 @@ export default function HomePage() {
             <p className="text-xs font-semibold uppercase tracking-[0.35em] text-white/70">
               Useful Links
             </p>
-            <div className="mt-4 space-y-3 text-xs uppercase tracking-[0.2em] text-white/70">
+            <div className="mt-4 space-y-3 text-xs tracking-[0.2em] text-white/70">
               <a href="#home" className="block hover:text-white">
                 Home
               </a>
